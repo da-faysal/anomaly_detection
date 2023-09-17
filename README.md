@@ -1,0 +1,1 @@
+There are 2 models for anomalous business traces detection, lstm autoencoder and gcn autoencoder. This is an unsupervised problem. The model is trained on non-anomalous data (traces_acronyms.text) only and tested on a file (Log_five.text) that contains both anomalous and non-anomalous logs. The anomalous logs are flagged based on the reconstruction error.
